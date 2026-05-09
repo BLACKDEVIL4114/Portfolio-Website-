@@ -5,33 +5,51 @@ import { FaGithub } from 'react-icons/fa';
 const projects = [
   {
     name: "AI Resume-Job Matching Platform",
-    description: "Full-stack ATS platform with React 19 frontend, FastAPI backend, spaCy NLP, TF-IDF scoring, Supabase auth, and live job fetching from Arbeitnow & Indeed RSS. Deployed on Vercel + Render.",
-    tags: ["React", "TypeScript", "FastAPI", "spaCy", "TF-IDF", "Supabase", "Vercel", "Render"],
+    description: "AI-powered resume matcher that scores ATS, recommends jobs, and auto-applies on platforms using Selenium + NLP.",
+    tags: ["TypeScript", "Python", "Selenium", "NLP"],
     github: "https://github.com/BLACKDEVIL4114/AI-Resume-Job-Matching-Platfrom"
   },
   {
-    name: "Multi-Modal AI Search Engine",
+    name: "AI-DOCS-EDITOR",
+    description: "AI-powered DOCX XML Editor for surgical document manipulation with natural language controlled edits and high-scale differential patching.",
+    tags: ["JavaScript", "React", "Node.js", "Ollama"],
+    github: "https://github.com/BLACKDEVIL4114/AI-DOCS-EDITOR"
+  },
+  {
+    name: "-project-PMS",
+    description: "Project Monitoring System (PMS) v2.0—a professional desktop application for project planning, task assignment, and progress tracking.",
+    tags: ["Python", "Tkinter", "SQLite"],
+    github: "https://github.com/BLACKDEVIL4114/-project-PMS"
+  },
+  {
+    name: "Golden_Signature_by_CodeVeda",
+    description: "Streamlit app for AGPO “Golden Signature” featuring a data pipeline, feature-store cache, and optimization dashboards.",
+    tags: ["Python", "Streamlit", "Data Pipeline"],
+    github: "https://github.com/BLACKDEVIL4114/Golden_Signature_by_CodeVeda"
+  },
+  {
+    name: "Code_Veda",
+    description: "A sophisticated, high-performance Inventory Management System focused on visual excellence and security.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/BLACKDEVIL4114/Code_Veda"
+  },
+  {
+    name: "Multi-Modal-AI-Search-Engine",
     description: "Semantic search engine using CLIP embeddings + FAISS vector index + Streamlit UI. Accepts text, image, and audio inputs for cross-modal retrieval.",
-    tags: ["Python", "CLIP", "FAISS", "Streamlit", "open-clip-torch", "NumPy"],
+    tags: ["Python", "CLIP", "FAISS", "Streamlit"],
     github: "https://github.com/BLACKDEVIL4114/Multi-Modal-AI-Search-Engine"
   },
   {
-    name: "PMS 2.0 — Project Monitoring System",
-    description: "Role-based desktop app (Admin, Team Leader, Employee) built with Python Tkinter + SQLite + Flask + LightGBM AI performance prediction.",
-    tags: ["Python", "Tkinter", "SQLite", "Flask", "LightGBM", "ML"],
-    github: "#" // No link provided in prompt, using #
+    name: "project_samarth",
+    description: "Data-driven project focused on analysis and modeling.",
+    tags: ["Python", "Data Analysis"],
+    github: "https://github.com/BLACKDEVIL4114/project_samarth"
   },
   {
-    name: "Django E-Commerce Website",
-    description: "Full-featured e-commerce site with product categories, stock indicators, Razorpay payments, admin dashboard live stats, and PDF invoice generation.",
-    tags: ["Django", "Bootstrap", "SQLite", "Razorpay", "xhtml2pdf", "Pillow"],
-    github: "https://github.com/BLACKDEVIL4114/e-commerce-website-"
-  },
-  {
-    name: "agon-agent — DOCX XML Editor",
-    description: "Web-based DOCX XML editor with React/TypeScript frontend + Node.js backend. Uses local Ollama (qwen2.5:14b) with a hybrid intent system for direct JSZip patching and LLM-based complex edits.",
-    tags: ["React", "TypeScript", "Node.js", "Ollama", "JSZip", "qwen2.5"],
-    github: "#" // No link provided in prompt, using #
+    name: "Boxcricket",
+    description: "Web application for managing box cricket bookings and tournaments.",
+    tags: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/BLACKDEVIL4114/Boxcricket"
   }
 ];
 
