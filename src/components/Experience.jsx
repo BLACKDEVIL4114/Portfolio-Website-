@@ -38,7 +38,7 @@ const Experience = () => {
                   <span className="text-cyan-500 text-sm font-semibold uppercase tracking-wider">2024 – Present</span>
                   <h3 className="text-xl font-bold text-white mt-1">Final Year Project Developer</h3>
                   <p className="text-zinc-400 font-medium text-sm mb-2">Self-initiated</p>
-                  <p className="text-zinc-500 text-sm leading-relaxed">
+                  <p className="text-zinc-300 text-sm leading-relaxed">
                     Built multiple full-stack and AI/ML projects including an ATS resume platform, multi-modal search engine, and a desktop project monitoring system as part of GTU final year curriculum.
                   </p>
                 </div>

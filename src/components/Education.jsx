@@ -26,7 +26,7 @@ const Education = () => {
           <div>
             <h3 className="text-xl font-bold text-white">B.E. in Information Technology</h3>
             <p className="text-zinc-400 font-medium">Sal College of Engineering & Technology, GTU</p>
-            <p className="text-zinc-500 text-sm">Ahmedabad</p>
+            <p className="text-zinc-300 text-sm">Ahmedabad</p>
           </div>
           <div className="text-cyan-500 font-semibold text-lg">
             2022 – 2026

@@ -38,7 +38,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="text-2xl md:text-3xl font-medium text-zinc-400 mb-6"
+          className="text-2xl md:text-3xl font-medium text-zinc-200 mb-6"
         >
           Data Analyst & AI/ML Developer
         </motion.h2>
@@ -48,7 +48,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
-          className="text-zinc-500 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed"
+          className="text-zinc-300 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed"
         >
           I analyze data and build intelligent applications — from data pipelines to AI/ML models. I care about data-driven insights, real-world impact, and shipping products that work.
         </motion.p>

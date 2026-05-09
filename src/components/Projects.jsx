@@ -71,7 +71,7 @@ const Projects = () => {
                 <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">
                   {project.name}
                 </h3>
-                <p className="text-zinc-500 text-sm mb-4 leading-relaxed">
+                <p className="text-zinc-300 text-sm mb-4 leading-relaxed">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
