@@ -28,10 +28,10 @@ const projects = [
     github: "https://github.com/BLACKDEVIL4114/Golden_Signature_by_CodeVeda"
   },
   {
-    name: "Code_Veda",
-    description: "A sophisticated, high-performance Inventory Management System focused on visual excellence and security.",
+    name: "Inventory Management System",
+    description: "A comprehensive Inventory Management System with feature-rich dashboards, product tracking, and secure authentication.",
     tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/BLACKDEVIL4114/Code_Veda"
+    github: "https://github.com/BLACKDEVIL4114/Inventory-Management-System"
   },
   {
     name: "Multi-Modal-AI-Search-Engine",
