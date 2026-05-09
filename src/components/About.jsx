@@ -25,7 +25,7 @@ const About = () => {
         >
           <h3 className="text-xl font-bold text-white mb-4 text-center sm:text-left">Data Analyst & AI Engineer</h3>
           <p className="text-zinc-400 text-lg leading-relaxed text-center sm:text-left">
-            I'm a final-year Information Technology student at <span className="text-white font-medium">Sal College of Engineering & Technology (GTU)</span>, Ahmedabad. I specialize in building data-driven AI-powered applications using <span className="text-cyan-400 font-medium">React, FastAPI, Python, and Supabase</span>.
+            I'm a self-driven <span className="text-white font-medium">AI/ML Developer & Data Analyst</span> obsessed with turning raw data into intelligent, automated systems. I specialize in building data-driven applications using <span className="text-cyan-400 font-medium">React, FastAPI, Python, and Supabase</span>.
           </p>
           <p className="text-zinc-400 text-lg leading-relaxed text-center sm:text-left mt-4">
             I analyze complex datasets to uncover hidden patterns and build intelligent systems. I care about the accuracy of the insights and the efficiency of the models. I enjoy solving real problems with clean code and practical ML.
