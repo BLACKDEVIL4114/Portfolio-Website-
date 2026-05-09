@@ -44,7 +44,7 @@ const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href="#" // User to update
+            href="https://www.linkedin.com/in/himanshu-kotval-2b2993244/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-zinc-400 hover:text-cyan-500 text-3xl transition-colors p-3 bg-zinc-900/50 rounded-full border border-zinc-800 hover:border-cyan-500/30"
