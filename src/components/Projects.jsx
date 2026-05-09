@@ -39,18 +39,7 @@ const projects = [
     tags: ["Python", "CLIP", "FAISS", "Streamlit"],
     github: "https://github.com/BLACKDEVIL4114/Multi-Modal-AI-Search-Engine"
   },
-  {
-    name: "project_samarth",
-    description: "Data-driven project focused on analysis and modeling.",
-    tags: ["Python", "Data Analysis"],
-    github: "https://github.com/BLACKDEVIL4114/project_samarth"
-  },
-  {
-    name: "Boxcricket",
-    description: "Web application for managing box cricket bookings and tournaments.",
-    tags: ["JavaScript", "HTML", "CSS"],
-    github: "https://github.com/BLACKDEVIL4114/Boxcricket"
-  }
+
 ];
 
 const Projects = () => {
