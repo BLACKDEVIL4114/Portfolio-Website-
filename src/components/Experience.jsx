@@ -34,7 +34,7 @@ const Experience = () => {
 
               {/* Content */}
               <div className="ml-8 md:ml-0 md:w-1/2 md:pr-12 md:text-right flex justify-end">
-                <div className="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl max-w-lg">
+                <div className="bg-white/[0.02] backdrop-blur-md border border-white/[0.05] p-6 rounded-2xl max-w-lg">
                   <span className="text-cyan-500 text-sm font-semibold uppercase tracking-wider">2024 – Present</span>
                   <h3 className="text-xl font-bold text-white mt-1">Final Year Project Developer</h3>
                   <p className="text-zinc-400 font-medium text-sm mb-2">Self-initiated</p>

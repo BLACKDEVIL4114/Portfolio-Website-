@@ -2,9 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skills = [
-  "Python", "React", "TypeScript", "FastAPI", "Django", "Tailwind CSS", "Framer Motion",
-  "Supabase", "SQLite", "PostgreSQL", "spaCy", "scikit-learn", "TF-IDF", "CLIP", "FAISS",
-  "Streamlit", "Tkinter", "Vite", "Git", "Vercel", "Render", "Ollama", "LightGBM"
+  "Python", "scikit-learn", "LightGBM", "spaCy", "TF-IDF", "CLIP", "FAISS", "Ollama",
+  "FastAPI", "Django", "React", "TypeScript", "Supabase", "PostgreSQL", "SQLite",
+  "Tailwind CSS", "Framer Motion", "Streamlit", "Tkinter", "Vite", "Git", "Vercel", "Render",
+  "HTML", "CSS", "JavaScript"
 ];
 
 const Skills = () => {
@@ -30,7 +31,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: index * 0.05 }}
-              className="text-sm rounded-full border border-cyan-500/30 text-cyan-400 bg-cyan-950/30 px-4 py-1.5 font-medium hover:border-cyan-500/60 transition-colors cursor-default"
+              className="text-sm rounded-full border border-white/[0.05] text-cyan-400 bg-white/[0.02] backdrop-blur-sm px-4 py-1.5 font-medium hover:border-cyan-500/30 transition-all cursor-default"
             >
               {skill}
             </motion.span>

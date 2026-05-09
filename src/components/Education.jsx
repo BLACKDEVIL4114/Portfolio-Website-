@@ -21,7 +21,7 @@ const Education = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="bg-zinc-900/50 border border-zinc-800 p-8 rounded-2xl backdrop-blur-sm flex flex-col md:flex-row justify-between items-start md:items-center gap-4"
+          className="bg-white/[0.02] backdrop-blur-md border border-white/[0.05] p-8 rounded-2xl flex flex-col md:flex-row justify-between items-start md:items-center gap-4"
         >
           <div>
             <h3 className="text-xl font-bold text-white">B.E. in Information Technology</h3>
