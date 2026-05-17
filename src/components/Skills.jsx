@@ -3,9 +3,12 @@ import { motion } from 'framer-motion';
 
 const skills = [
   "Python", "scikit-learn", "LightGBM", "spaCy", "TF-IDF", "CLIP", "FAISS", "Ollama",
-  "FastAPI", "Django", "React", "TypeScript", "Supabase", "PostgreSQL", "SQLite",
-  "Tailwind CSS", "Framer Motion", "Streamlit", "Tkinter", "Vite", "Git", "Vercel", "Render",
-  "HTML", "CSS", "JavaScript"
+  "FastAPI", "Django", "React", "Next.js", "TypeScript", "JavaScript", "HTML", "CSS",
+  "Node.js", "Express", "Bun", "TanStack Query", "tRPC", "Convex", "Supabase",
+  "PostgreSQL", "MongoDB", "Redis", "Prisma ORM", "SQLite", "Socket.io",
+  "OpenAI", "LangChain", "Cloudinary", "JWT", "Postman",
+  "Docker", "Kubernetes", "AWS", "Linux", "Turborepo",
+  "Tailwind CSS", "Framer Motion", "Streamlit", "Tkinter", "Vite", "Git", "Vercel", "Render"
 ];
 
 const Skills = () => {

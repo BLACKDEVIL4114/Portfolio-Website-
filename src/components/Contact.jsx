@@ -53,7 +53,7 @@ const Contact = () => {
             <FaLinkedin />
           </a>
           <a
-            href="mailto:your.email@example.com" // User to update
+            href="mailto:himanshu04114@gmail.com"
             className="text-zinc-400 hover:text-cyan-500 text-3xl transition-colors p-3 bg-zinc-900/50 rounded-full border border-zinc-800 hover:border-cyan-500/30"
             aria-label="Email"
           >

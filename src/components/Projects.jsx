@@ -4,6 +4,42 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
+    name: "SignalOne",
+    description: "AI-powered real-time stock market platform delivering smart alerts, actionable insights, customizable watchlists, and automated workflows.",
+    tags: ["Next.js", "React", "TypeScript", "MongoDB", "BetterAuth", "Inngest", "TradingView"],
+    github: "https://github.com/BLACKDEVIL4114/SignalOne"
+  },
+  {
+    name: "BlinkChat",
+    description: "A privacy-first real-time chat system enabling anonymous 1-on-1 communication with auto-expiring rooms.",
+    tags: ["Next.js", "React", "TypeScript", "TanStack Query", "Upstash Redis", "ElysiaJS", "Bun"],
+    github: "https://github.com/BLACKDEVIL4114/blinkchat"
+  },
+  {
+    name: "Blitz AI",
+    description: "AI-powered website builder that turns natural language prompts into responsive web pages.",
+    tags: ["Next.js", "TypeScript", "tRPC", "TanStack Query", "Inngest", "Prisma", "PostgreSQL", "OpenAI"],
+    github: "https://github.com/BLACKDEVIL4114/BlitzAI"
+  },
+  {
+    name: "FinSync AI",
+    description: "AI-powered finance tracker featuring expense tracking, receipt scanning, and transaction exports.",
+    tags: ["Next.js", "React", "Supabase", "Prisma", "PostgreSQL", "Recharts", "Arcjet", "Inngest", "Gemini"],
+    github: "https://github.com/BLACKDEVIL4114/FinSync"
+  },
+  {
+    name: "Splitr",
+    description: "A group expense management platform simplifying tracking shared costs and automating settlements.",
+    tags: ["Next.js", "JavaScript", "Convex", "Recharts", "Inngest", "Gemini", "Clerk Auth", "Resend"],
+    github: "https://github.com/BLACKDEVIL4114/Splitr"
+  },
+  {
+    name: "FaceLink",
+    description: "A fast and secure video conferencing platform offering instant meetings and screen sharing.",
+    tags: ["Next.js", "React", "TypeScript", "Stream SDK", "Clerk Auth", "Tailwind CSS"],
+    github: "https://github.com/BLACKDEVIL4114/FaceLink"
+  },
+  {
     name: "AI Resume-Job Matching Platform",
     description: "AI-powered resume matcher that scores ATS, recommends jobs, and auto-applies on platforms using Selenium + NLP.",
     tags: ["TypeScript", "Python", "Selenium", "NLP"],
@@ -39,7 +75,6 @@ const projects = [
     tags: ["Python", "CLIP", "FAISS", "Streamlit"],
     github: "https://github.com/BLACKDEVIL4114/Multi-Modal-AI-Search-Engine"
   },
-
 ];
 
 const Projects = () => {
