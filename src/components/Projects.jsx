@@ -4,89 +4,61 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
-    name: "SignalOne",
-    description: "AI-powered real-time stock market platform delivering smart alerts, actionable insights, customizable watchlists, and automated workflows.",
-    tags: ["Next.js", "React", "TypeScript", "MongoDB", "BetterAuth", "Inngest", "TradingView"],
-    github: "https://github.com/BLACKDEVIL4114/SignalOne",
-    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    name: "BlinkChat",
-    description: "A privacy-first real-time chat system enabling anonymous 1-on-1 communication with auto-expiring rooms.",
-    tags: ["Next.js", "React", "TypeScript", "TanStack Query", "Upstash Redis", "ElysiaJS", "Bun"],
-    github: "https://github.com/BLACKDEVIL4114/blinkchat",
-    image: "https://images.unsplash.com/photo-1611605698335-8b15d27e03f9?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    name: "Blitz AI",
-    description: "AI-powered website builder that turns natural language prompts into responsive web pages.",
-    tags: ["Next.js", "TypeScript", "tRPC", "TanStack Query", "Inngest", "Prisma", "PostgreSQL", "OpenAI"],
-    github: "https://github.com/BLACKDEVIL4114/BlitzAI",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    name: "FinSync AI",
-    description: "AI-powered finance tracker featuring expense tracking, receipt scanning, and transaction exports.",
-    tags: ["Next.js", "React", "Supabase", "Prisma", "PostgreSQL", "Recharts", "Arcjet", "Inngest", "Gemini"],
-    github: "https://github.com/BLACKDEVIL4114/FinSync",
-    image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    name: "Splitr",
-    description: "A group expense management platform simplifying tracking shared costs and automating settlements.",
-    tags: ["Next.js", "JavaScript", "Convex", "Recharts", "Inngest", "Gemini", "Clerk Auth", "Resend"],
-    github: "https://github.com/BLACKDEVIL4114/Splitr",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    name: "FaceLink",
-    description: "A fast and secure video conferencing platform offering instant meetings and screen sharing.",
-    tags: ["Next.js", "React", "TypeScript", "Stream SDK", "Clerk Auth", "Tailwind CSS"],
-    github: "https://github.com/BLACKDEVIL4114/FaceLink",
-    image: "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=800&q=80"
-  },
-  {
     name: "AI Resume-Job Matching Platform",
-    description: "AI-powered resume matcher that scores ATS, recommends jobs, and auto-applies on platforms using Selenium + NLP.",
-    tags: ["TypeScript", "Python", "Selenium", "NLP"],
+    description: "AI-powered resume matcher that scores ATS scores, recommends matching jobs, and automates applications on Naukri & corporate career sites using Selenium and Natural Language Processing.",
+    tags: ["TypeScript", "Python", "Selenium", "NLP", "AI"],
     github: "https://github.com/BLACKDEVIL4114/AI-Resume-Job-Matching-Platfrom",
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80"
   },
   {
     name: "AI-DOCS-EDITOR",
-    description: "AI-powered DOCX XML Editor for surgical document manipulation with natural language controlled edits and high-scale differential patching.",
-    tags: ["JavaScript", "React", "Node.js", "Ollama"],
+    description: "AI-powered DOCX XML Editor for surgical document manipulation. Features natural language controlled edits, robust high-scale differential patching, and precision XML surgery to modify headers, footers, and body text.",
+    tags: ["JavaScript", "React", "Node.js", "Ollama", "XML Surgery"],
     github: "https://github.com/BLACKDEVIL4114/AI-DOCS-EDITOR",
     image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80"
   },
   {
     name: "-project-PMS",
-    description: "Project Monitoring System (PMS) v2.0—a professional desktop application for project planning, task assignment, and progress tracking.",
-    tags: ["Python", "Tkinter", "SQLite"],
+    description: "The Project Monitoring System (PMS) v2.0 is a professional desktop application designed to streamline project planning, task assignment, and progress tracking for teams with SQLite data storage.",
+    tags: ["Python", "Tkinter", "SQLite", "Flask API"],
     github: "https://github.com/BLACKDEVIL4114/-project-PMS",
     image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80"
   },
   {
+    name: "Multi-Modal-AI-Search-Engine",
+    description: "Semantic search engine using CLIP embeddings + FAISS vector index + Streamlit UI. Accepts text, image, and audio inputs for cross-modal semantic data retrieval under 1 second.",
+    tags: ["Python", "CLIP", "FAISS", "Streamlit", "Vector Search"],
+    github: "https://github.com/BLACKDEVIL4114/Multi-Modal-AI-Search-Engine",
+    image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    name: "Stock Market Prediction System",
+    description: "Machine Learning based stock price movement predictor forecasting next day trend changes and price signals using historical market datasets and technical indicators.",
+    tags: ["Python", "Machine Learning", "Pandas", "Scikit-Learn"],
+    github: "https://github.com/BLACKDEVIL4114/stock-market-prediction-system",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    name: "Code_Veda",
+    description: "A sophisticated, high-performance Inventory Management System designed with a focus on visual excellence and security. Manages complex supply chains across multiple physical storage hubs.",
+    tags: ["HTML", "CSS", "JavaScript", "Security", "Supply Chain"],
+    github: "https://github.com/BLACKDEVIL4114/Code_Veda",
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
     name: "Golden_Signature_by_CodeVeda",
-    description: "Streamlit app for AGPO “Golden Signature” featuring a data pipeline, feature-store cache, and optimization dashboards.",
-    tags: ["Python", "Streamlit", "Data Pipeline"],
+    description: "High-efficiency Streamlit web application for AGPO “Golden Signature” featuring automated data pipeline components, feature-store cache layers, and optimization dashboards.",
+    tags: ["Python", "Streamlit", "Data Pipeline", "AGPO"],
     github: "https://github.com/BLACKDEVIL4114/Golden_Signature_by_CodeVeda",
     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80"
   },
   {
-    name: "Inventory Management System",
-    description: "A comprehensive Inventory Management System with feature-rich dashboards, product tracking, and secure authentication.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/BLACKDEVIL4114/Inventory-Management-System",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    name: "Multi-Modal-AI-Search-Engine",
-    description: "Semantic search engine using CLIP embeddings + FAISS vector index + Streamlit UI. Accepts text, image, and audio inputs for cross-modal retrieval.",
-    tags: ["Python", "CLIP", "FAISS", "Streamlit"],
-    github: "https://github.com/BLACKDEVIL4114/Multi-Modal-AI-Search-Engine",
-    image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=800&q=80"
-  },
+    name: "vibrant-web-tech",
+    description: "Redesigned corporate website for Vibrant Web Tech utilizing modern fluid grid layouts, high-performance interactive sections, and highly optimized responsive layouts.",
+    tags: ["JavaScript", "HTML", "CSS", "Responsive Layouts"],
+    github: "https://github.com/BLACKDEVIL4114/vibrant-web-tech",
+    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80"
+  }
 ];
 
 const Projects = () => {
@@ -102,6 +74,9 @@ const Projects = () => {
         >
           <h2 className="text-3xl font-bold text-white mb-2">Projects</h2>
           <div className="w-20 h-1 bg-cyan-500 mx-auto rounded-full"></div>
+          <p className="text-zinc-400 text-sm mt-4 max-w-lg mx-auto">
+            A showcase of my actual systems, tools, and platforms built during internships and independent research.
+          </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
