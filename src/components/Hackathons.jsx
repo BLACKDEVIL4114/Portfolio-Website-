@@ -10,15 +10,9 @@ const hackathons = [
     description: "Participated in the prestigious national-level hackathon at IIT Hyderabad. Collaborated in a team of engineers to build an AI/ML powered prototype, design automated data processing pipelines, and optimize machine learning parameters under an intensive competitive sprint."
   },
   {
-    title: "Odoo x Indus University Hackathon",
-    location: "Indus University, Ahmedabad",
-    date: "2025",
-    description: "Collaborated in a development team to design and build an Inventory Management System. The application was engineered to efficiently manage product records, track real-time stock levels, and streamline inventory operations."
-  },
-  {
     title: "National AI/ML Hackathon by AVEVA",
     location: "National Level Competition",
-    date: "2025",
+    date: "2026",
     description: "Analyzed, structured, and organized large engineering datasets using Python and statistical data cleaning methods. Successfully automated predictive workflows to improve processing efficiency and optimize overall system performance."
   }
 ];
